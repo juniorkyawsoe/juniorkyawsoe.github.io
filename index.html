@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyaw Soe | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <img class="nav-logo" src="logo.png" alt="logo">
+                <div class="nav-menu-container desktop-menu">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="theme-toggle">
+                        <button id="theme-toggle-btn">
+                            <span class="sun-icon">☀️</span>
+                            <span class="moon-icon">🌙</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile Menu Overlay -->
+        <div class="nav-menu-container mobile-menu">
+            <button class="close-btn">&times;</button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle-mobile">
+                <button id="theme-toggle-btn-mobile">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div style="padding: 20px;">
+                    <h1
+                        style="font-family: 'Poppins', sans-serif; color: #38bdf8; font-size: 4rem; text-shadow: 0 0 15px rgba(56, 189, 248, 0.4); margin: 0;">
+                        Kyaw Soe
+                    </h1>
+                    <p class="subtitle"
+                        style="font-family: 'Roboto Mono', monospace; color: #38bdf8; font-weight: 500; margin-top: 8px;">
+                        &lt;Fullstack Developer /&gt;
+                    </p>
+                </div>
+                <p class="description">
+                    Experienced Fullstack Developer with 3+ year expertise in building scalable and efficient web
+                    applications.
+                    Strong problem-solving abilities, collaborative team player, and dedicated to staying current with
+                    industry trends.
+                    Passionate about developing high-quality solutions that enhance user experience and performance.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an experienced Fullstack Developer with 3+ years of expertise in building
+                        scalable and efficient web applications. I specialize in creating robust solutions
+                        that enhance user experience and performance.
+                    </p>
+                    <p>
+                        My approach combines strong problem-solving abilities with collaborative teamwork
+                        and dedication to staying current with industry trends. I'm passionate about
+                        developing high-quality solutions that make a difference.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Kyaw Soe - Fullstack Developer" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML/CSS</h3>
+                    <p>Creating semantic markup and responsive layouts</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Building interactive and dynamic web experiences</p>
+                </div>
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>Developing component-based user interfaces</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript runtime environment</p>
+                </div>
+                <div class="skill-card">
+                    <h3>MongoDB</h3>
+                    <p>NoSQL database for modern applications</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git & Version Control</h3>
+                    <p>Collaborative development workflows</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Docker</h3>
+                    <p>Containerization for consistent deployment</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Redis</h3>
+                    <p>In-memory data structure store</p>
+                </div>
+                <div class="skill-card">
+                    <h3>MySQL</h3>
+                    <p>Relational database management system</p>
+                </div>
+                <div class="skill-card">
+                    <h3>PostgreSQL</h3>
+                    <p>Advanced open-source relational database</p>
+                </div>
+                <div class="skill-card">
+                    <h3>AWS</h3>
+                    <p>Cloud computing services by Amazon</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Kubernetes</h3>
+                    <p>Container orchestration platform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1-demo.jpg" alt="Realtime Chat App Demo" class="project-demo-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Realtime Chat App</h3>
+                        <p>A realtime chat application featuring instant messaging, notifications, online status, and
+                            group conversations. Built using Socket.io for live communication and Prisma with PostgreSQL
+                            for data management.</p>
+                        <div class="project-tags">
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Prisma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1-demo.jpg" alt="Multi-Database Manager CLI Demo" class="project-demo-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Multi-Database Manager CLI</h3>
+                        <p>A CLI tool to manage multiple databases from a single interface. It supports Postgres, MySQL,
+                            and MongoDB and convenient for SQL common operations.</p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1-demo.jpg" alt="NestJS Prisma Generator CLI Demo" class="project-demo-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>NestJS Prisma Generator CLI</h3>
+                        <p>A CLI tool to generate fully modular NestJS projects with Prisma, featuring pre-configured
+                            Swagger, authentication, AWS S3 integration, and Prisma setup.</p>
+                        <div class="project-tags">
+                            <span class="tag">NestJS</span>
+                            <span class="tag">Prisma</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content-full">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm currently available for freelance work and full-time positions.</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> juniorkyawsoe7518@gmail.com</p>
+                        <p><strong>Location:</strong> Yangon, Myanmar</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/juniorkyawsoe" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
+                    <br>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Kyaw Soe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-arrow-up">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
