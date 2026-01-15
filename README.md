@@ -5,11 +5,6 @@
   <img src="https://komarev.com/ghpvc/?username=juniorkyawsoe&label=Profile%20views&color=0e75b6&style=flat" alt="juniorkyawsoe" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juniorkyawsoe&show_icons=true&theme=radical" alt="Junior Kyaw Soe's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juniorkyawsoe&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
 <hr>
 
 <h2>About Me</h2>
@@ -24,7 +19,7 @@
 
 <h2>Skills & Technologies</h2>
 <div>
-  <p><b>Languages:</b> Java, JavaScript, HTML, CSS</p>
+  <p><b>Languages:</b> Nodejs, Nestjs, Expressjs, JavaScript, Flutter, HTML, CSS</p>
   <p><b>Technologies:</b> Android Development, Web Development</p>
   <p><b>Tools:</b> Git, GitHub</p>
 </div>
